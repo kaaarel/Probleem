@@ -11,7 +11,6 @@ tmp/
 *.bak
 *.swp
 *~.nib
-*.exe
 local.properties
 .classpath
 .settings/
@@ -214,3 +213,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+###########
+## C++
+###########
+.exe
+*.exe
+.~.exe
