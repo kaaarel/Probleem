@@ -1,10 +1,4 @@
 #include <iostream>
-#include <string>
-#include <sstream>
-#include <cstdlib>
-#include <math.h>
-#include <limits>
-#include <inttypes.h>
 
 using namespace std;
 
