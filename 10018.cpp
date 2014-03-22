@@ -1,16 +1,15 @@
 #include <iostream>
 
+
 using namespace std;
 
-int poora(int arv){
+int poora(long long arv){
 
-    int pooratud = 0;
-    int j = 0;
-
-
+    long long pooratud=0,j=0;
+    
     while(arv > 0){
         j = arv%10;
-        pooratud = pooratud * 10 + j;
+        pooratud = pooratud*10 + j;
         arv = arv/10;
 
     }
@@ -18,11 +17,10 @@ int poora(int arv){
 
 }
 
-
-
 int main()
 {
-    int P,N,n=0,i;
+    long long P;
+    int N,n=0,i;
     cin>>N;
     
     for(i=1;i<=N;i++){
@@ -34,6 +32,5 @@ int main()
     cout<<n<<" "<<P<<endl;
     n=0;
     }
-    system("pause");
     return 0;
 }
